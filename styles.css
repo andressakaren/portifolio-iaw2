@@ -49,11 +49,15 @@ article {
 img {
     width: 350px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-
 }
 
+/* :hover {
+    transition: .1s;
+    transform: translate(-10px, -10px);
+} */
+
 li a:hover{
-    transition: .5s;
+    transition: .2s;
     color: #e54;
     border-bottom: 1px solid #e54;
 }
@@ -61,15 +65,15 @@ li a:hover{
 .topicos {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
 p {
     text-align: justify;
     color: #222;
-
 }
 
 .topicos h2 {
@@ -131,6 +135,8 @@ footer h2{
     margin-bottom: 1rem;
     margin-top: 0.5rem;
     margin-left: 1.5rem;
+    margin-right: 0.6rem;
+
     color: #e54;
 }
 
@@ -157,3 +163,4 @@ footer h2{
     margin-left: 25%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
